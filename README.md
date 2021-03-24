@@ -63,7 +63,7 @@ Example code:
 const fs = require('fs');
 
 
-console.log("Hello World sdf");
+console.log("Hello World");
 
 fs.readFile('resource/test.json', (err: any, data: string) => {
     if (err) throw err;
